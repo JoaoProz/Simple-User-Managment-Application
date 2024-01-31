@@ -1,12 +1,12 @@
-<script setup>
-import UserList from './components/UserList.vue'
-</script>
-
 <template>
   <div>
-    <UserList />
+    <UsersList />
   </div>
 </template>
+
+<script setup>
+  import UsersList from './components/UsersList.vue'
+</script>
 
 <style scoped>
 </style>
