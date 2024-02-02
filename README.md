@@ -1,24 +1,11 @@
-# README
+# Simple User Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is part of the technical assignment for ziggu.
 
-Things you may want to cover:
+This project consists of a simple user management application where you could add new users, edit or delete existing users.
 
-* Ruby version
+* Versions:
+    Ruby 2.7.5, Rails 5.2.8.1 and Vue 3.4.15
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Tests:
+    There's testing for the backend side of the application using the rspec framework.
