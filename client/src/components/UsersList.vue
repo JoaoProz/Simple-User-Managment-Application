@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h1>Users</h1>
 
     <div>
@@ -75,8 +75,7 @@ const createUser = async () => {
         email: data.email ? data.email[0] : '',
         country: data.country ? data.country[0] : ''
       };
-      toast("There are errors to be fixed", {"type": "error"})
-      return
+      return toast("There are errors to be fixed", {"type": "error"})
     }
 
     users.value.push(data);
@@ -111,8 +110,7 @@ const updateUser = async () => {
         email: data.email ? data.email[0] : '',
         country: data.country ? data.country[0] : ''
       };
-      toast("There are errors to be fixed", {"type": "error"})
-      return
+      return toast("There are errors to be fixed", {"type": "error"})
     }
 
 

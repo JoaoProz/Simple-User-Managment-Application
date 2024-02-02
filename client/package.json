@@ -2,11 +2,12 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vue-cli-service test:unit"
   },
   "dependencies": {
     "country-region-data": "^3.0.0",
@@ -17,7 +18,14 @@
     "vue3-toastify": "^0.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
     "@vitejs/plugin-vue": "^4.5.2",
-    "vite": "^5.0.8"
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/test-utils": "^2.4.4",
+    "@vue/vue3-jest": "^27.0.0",
+    "jest": "^27.5.1",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.2"
   }
 }
